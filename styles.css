@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Headline Section */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Image Section */
+.image-section img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Storyline Section */
+.storyline {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Donation Options Section */
+.donation-options {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.donation-options h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.donate-btn {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Styles */
+.mpesa {
+    background-color: #34B233;
+}
+
+.paypal {
+    background-color: #003087;
+}
+
+.bank {
+    background-color: #FF9800;
+}
+
+.donate-btn:hover {
+    opacity: 0.8;
+}
+
+/* Special Info Section */
+.special-info {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.special-info h2 {
+    color: #007BFF;
+    font-size: 22px;
+}
+
+.special-info p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.special-info h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#donor-list {
+    list-style: none;
+    padding: 0;
+}
+
+#donor-list li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
