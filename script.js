@@ -24,7 +24,7 @@ document.querySelector(".mpesa").addEventListener("click", async function() {
 });
 const shortcode = "174379"; // Test Paybill Number
 const passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2b93df12c848f52651f21c4e7a99c2d1"; // Test Passkey
-const callbackURL = "https://your-callback-url.com"; // Replace with your callback URL
+const callbackURL = "https://arapcheruiyot.github.io/donation/"; // Replace with your callback URL
 
 async function initiateSTKPush(phoneNumber, amount) {
     const accessToken = await getAccessToken();
